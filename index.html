@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>為夢想出發｜手球隊國際賽募款計畫</title>
+    <!-- 引入 Google 字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 FontAwesome 圖示 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans TC"', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0d47a1', // 深藍色
+                        accent: '#ff9800',  // 橘色
+                        success: '#4caf50', // 綠色
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-pattern {
+            background-color: #0d47a1;
+            background-image: radial-gradient(#1e3a8a 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .gallery-item {
+            transition: all 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.02);
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-accent selection:text-white">
+
+    <!-- 頁首與橫幅 -->
+    <header class="hero-pattern relative text-white pt-20 pb-32 px-4 text-center overflow-hidden">
+        <div class="absolute inset-0 bg-primary/80"></div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <span class="inline-block py-1 px-3 rounded-full bg-white/20 text-sm font-semibold tracking-wider mb-4 border border-white/30 backdrop-blur-sm">
+                臺中市立龍井國民中學
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight tracking-wide drop-shadow-lg">
+                為夢想出發<br class="md:hidden"><span class="text-accent">讓世界看見我們</span>
+            </h1>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-10 text-gray-100 font-medium leading-relaxed drop-shadow-md">
+                支持龍井國中男子手球隊前進斯洛維尼亞，站上國際殿堂，為台灣爭光。
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#support-section" class="inline-flex items-center justify-center gap-2 bg-accent hover:bg-orange-500 text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl shadow-orange-500/50">
+                    <i class="fa-solid fa-heart"></i> 立即支持我們
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 募款進度卡片 -->
+    <div class="max-w-4xl mx-auto px-4 relative z-20 -mt-16">
+        <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border border-gray-100 text-center">
+            <p class="text-gray-500 font-medium text-lg mb-1">目標募款金額</p>
+            <div class="text-4xl md:text-5xl font-bold text-primary tracking-wide">NT$ 2,092,800</div>
+            <p class="text-sm text-gray-500 mt-4">
+                <i class="fa-solid fa-circle-info mr-1"></i> 除了政府補助，我們仍需各界響應以補足缺口。
+            </p>
+        </div>
+    </div>
+
+    <!-- 主要內容區塊 -->
+    <main class="max-w-4xl mx-auto px-4 py-16 space-y-16">
+
+        <!-- 區塊一：球隊介紹 -->
+        <section class="flex flex-col md:flex-row gap-8 items-center bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+            <div class="w-full md:w-1/3 flex justify-center">
+                <div class="w-32 h-32 md:w-48 md:h-48 bg-blue-100 rounded-full flex items-center justify-center text-primary shadow-inner">
+                    <i class="fa-solid fa-people-group text-6xl"></i>
+                </div>
+            </div>
+            <div class="w-full md:w-2/3">
+                <h2 class="text-2xl font-bold text-primary mb-4 flex items-center gap-2">
+                    <span class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                    球隊介紹
+                </h2>
+                <p class="text-gray-600 leading-relaxed text-lg">
+                    本校手球隊長期致力於培養學生紀律、團隊合作與運動家精神，歷年於全國賽事中表現優異。本次代表學校及台灣參與國際賽事，為學生難得之學習與成長機會。
+                </p>
+            </div>
+        </section>
+
+        <!-- 區塊二：參賽計畫 -->
+        <section>
+            <h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
+                <span class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                參賽計畫
+            </h2>
+            <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-xl shadow-sm">
+                <ul class="space-y-4 mb-6">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-trophy text-accent mt-1"></i>
+                        <div>
+                            <span class="font-bold text-gray-800 block">比賽名稱</span>
+                            <span class="text-gray-600">32th EUROFEST 國際手球分齡賽</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-dot text-accent mt-1"></i>
+                        <div>
+                            <span class="font-bold text-gray-800 block">比賽地點</span>
+                            <span class="text-gray-600">斯洛維尼亞 / 科佩 (Koper, Slovenia)</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-calendar-days text-accent mt-1"></i>
+                        <div>
+                            <span class="font-bold text-gray-800 block">比賽日期</span>
+                            <span class="text-gray-600">2026 年 7 月 1 日 — 7 月 15 日</span>
+                        </div>
+                    </li>
+                </ul>
+                <p class="text-gray-700 bg-white p-4 rounded-lg shadow-inner">
+                    本次賽事匯聚各國優秀隊伍，透過交流提升競技能力並拓展國際視野。
+                </p>
+            </div>
+        </section>
+
+        <!-- 區塊三與四：經費與故事 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col">
+                <h2 class="text-2xl font-bold text-primary mb-4 flex items-center gap-2">
+                    <span class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                    經費需求
+                </h2>
+                <div class="text-gray-600 leading-relaxed space-y-4 text-lg">
+                    <p>主要支出包含<strong class="text-gray-800 underline decoration-accent/30 decoration-4">隊職員旅費、競賽裝備及必要保險</strong>。</p>
+                    <p>除了政府提供的部分補助，我們誠摯尋求各界的參與，協助分擔剩餘的資金缺口。</p>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col relative overflow-hidden text-lg italic">
+                <i class="fa-solid fa-quote-right absolute text-gray-100 text-8xl -top-4 -right-4"></i>
+                <h2 class="text-2xl font-bold text-primary mb-4 flex items-center gap-2 relative z-10">
+                    <span class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                    募款故事
+                </h2>
+                <div class="text-gray-600 leading-relaxed relative z-10 italic">
+                    <p>您的一份支持，將讓孩子們有機會站上國際舞台，開拓人生視野，在球場上展現最佳表現。</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- 區塊五：支持方式 -->
+        <section id="support-section" class="bg-blue-900 text-white p-8 md:p-12 rounded-3xl shadow-xl relative overflow-hidden scroll-mt-24">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-blue-800 rounded-full mix-blend-multiply filter blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2"></div>
+            
+            <h2 class="text-3xl font-bold text-accent mb-8 text-center relative z-10 font-black">支持方式</h2>
+            
+            <div class="bg-white/10 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/20 max-w-2xl mx-auto relative z-10">
+                <div class="space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-white/20 pb-3 gap-2">
+                        <span class="w-24 text-blue-200 font-bold">銀行名稱</span>
+                        <span class="font-medium text-lg">郵局 (代號 700)</span>
+                    </div>
+                    <!-- 戶名複製 -->
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-white/20 pb-3 gap-2 relative">
+                        <span class="w-24 text-blue-200 font-bold">戶名</span>
+                        <span class="font-medium pr-24 text-lg" id="bank-name">臺中市立龍井國民中學學生家長會紀恒紋</span>
+                        <button onclick="copyText('bank-name', '戶名')" class="mt-2 md:mt-0 md:absolute right-0 bg-white/20 hover:bg-white/40 transition text-xs py-1 px-3 rounded-lg border border-white/30 flex items-center gap-1">
+                            <i class="fa-regular fa-copy"></i> 複製戶名
+                        </button>
+                    </div>
+                    <!-- 帳號複製 -->
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-white/20 pb-3 gap-2 relative">
+                        <span class="w-24 text-blue-200 font-bold">匯款帳號</span>
+                        <span class="font-mono text-xl text-accent font-black tracking-widest" id="bank-account">01414380192756</span>
+                        <button onclick="copyText('bank-account', '帳號')" class="mt-2 md:mt-0 md:absolute right-0 bg-white/20 hover:bg-white/40 transition text-xs py-1 px-3 rounded-lg border border-white/30 flex items-center gap-1">
+                            <i class="fa-regular fa-copy"></i> 複製帳號
+                        </button>
+                    </div>
+                    <!-- 備註複製 (新增) -->
+                    <div class="flex flex-col md:flex-row md:items-center gap-2 relative">
+                        <span class="w-24 text-blue-200 font-bold">備註說明</span>
+                        <span class="bg-accent/20 px-3 py-1 rounded text-orange-200 border border-accent/30 text-sm font-medium pr-24" id="note-text">手球隊訓練及比賽經費</span>
+                        <button onclick="copyText('note-text', '備註內容')" class="mt-2 md:mt-0 md:absolute right-0 bg-white/20 hover:bg-white/40 transition text-xs py-1 px-3 rounded-lg border border-white/30 flex items-center gap-1">
+                            <i class="fa-regular fa-copy"></i> 複製備註
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="mt-8 bg-blue-950/50 p-4 rounded-xl text-sm leading-relaxed text-blue-100 flex gap-3 border border-white/10">
+                    <i class="fa-solid fa-circle-exclamation text-accent mt-1 text-lg"></i>
+                    <p>注意事項：匯款後請聯繫總務主任林主任 (04-26353344#731) 告知捐款人資訊，以便家長會為您開立正式收據。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 區塊六：精彩回顧 -->
+        <section>
+            <h2 class="text-2xl font-bold text-primary mb-8 flex items-center gap-2">
+                <span class="bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">5</span>
+                精彩回顧
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="col-span-2 row-span-2 overflow-hidden rounded-2xl shadow-md gallery-item">
+                    <img src="4.jpg" alt="龍井國中手球隊團隊合照" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md gallery-item aspect-square">
+                    <img src="5.jpg" alt="球員跳投英姿" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md gallery-item aspect-square">
+                    <img src="6.jpg" alt="激烈比賽瞬間" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md gallery-item aspect-square md:aspect-auto h-40 md:h-64">
+                    <img src="1.jpg" alt="大團體合照" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md gallery-item aspect-square md:aspect-auto h-40 md:h-64">
+                    <img src="2.jpg" alt="頒獎合照" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md gallery-item aspect-square md:aspect-auto h-40 md:h-64">
+                    <img src="9.jpg" alt="球員運球突破" class="w-full h-full object-cover">
+                </div>
+                <div class="hidden md:block overflow-hidden rounded-2xl shadow-md gallery-item h-64">
+                    <img src="8.jpg" alt="守門員專注防守" class="w-full h-full object-cover">
+                </div>
+                <div class="hidden md:block overflow-hidden rounded-2xl shadow-md gallery-item h-64">
+                    <img src="7.jpg" alt="球員進攻瞬間" class="w-full h-full object-cover">
+                </div>
+                <div class="hidden md:block overflow-hidden rounded-2xl shadow-md gallery-item h-64">
+                    <img src="3.jpg" alt="家長與球隊合影" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- 區塊七：聯絡資訊 -->
+        <section class="text-center pb-8 border-t border-gray-100 pt-16">
+            <h3 class="text-xl font-bold text-primary mb-4">聯絡資訊</h3>
+            <div class="text-gray-600 space-y-2">
+                <p>學校名稱：臺中市立龍井國民中學</p>
+                <p>聯絡人：體育組 林組長、許教練</p>
+                <p><i class="fa-solid fa-phone text-primary mr-1"></i> 04-26353344 分機 720、725</p>
+            </div>
+        </section>
+
+        <!-- 感謝結語 -->
+        <section class="text-center max-w-3xl mx-auto pt-12 border-t border-gray-200">
+            <p class="text-xl text-gray-700 leading-relaxed font-bold">
+                龍井國中手球隊致力於發展基層體育，感謝您成為我們築夢的推手。
+            </p>
+        </section>
+
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="bg-gray-100 py-10 text-center text-gray-500 text-sm border-t border-gray-200">
+        <p class="font-bold mb-2 text-gray-700">臺中市立龍井國民中學｜手球隊國際賽募款計畫</p>
+        <p>© 2026 讓夢想被看見，感謝各界愛心支持</p>
+    </footer>
+
+    <script>
+        // 複製文字功能
+        async function copyText(elementId, label) {
+            const text = document.getElementById(elementId).innerText;
+            try {
+                if (navigator.clipboard && window.isSecureContext) {
+                    await navigator.clipboard.writeText(text);
+                } else {
+                    const ta = document.createElement("textarea"); ta.value = text;
+                    ta.style.position = "fixed"; ta.style.left = "-9999px";
+                    document.body.appendChild(ta); ta.select();
+                    document.execCommand('copy'); document.body.removeChild(ta);
+                }
+                showToast(`${label}已複製`);
+            } catch (err) { showToast('複製失敗'); }
+        }
+
+        function showToast(msg) {
+            const t = document.createElement('div');
+            t.className = 'fixed bottom-10 left-1/2 -translate-x-1/2 bg-gray-800 text-white px-6 py-3 rounded-full shadow-2xl z-[100] transition-opacity duration-300 flex items-center gap-2';
+            t.innerHTML = `<i class="fa-solid fa-check-circle text-success"></i> ${msg}`;
+            document.body.appendChild(t);
+            setTimeout(() => { t.style.opacity = '0'; setTimeout(() => t.remove(), 300); }, 2000);
+        }
+    </script>
+</body>
+</html>
